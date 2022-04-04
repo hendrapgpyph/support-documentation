@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_app_1_1_http_1_1_controllers_1_1_api_1_1_send_email_controller" kind="class" language="PHP" prot="public">
+    <compoundname>App::Http::Controllers::Api::SendEmailController</compoundname>
+    <basecompoundref refid="class_app_1_1_http_1_1_controllers_1_1_controller" prot="public" virt="non-virtual">App\Http\Controllers\Controller</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_api_1_1_send_email_controller_1ac2deb9b45250acd4f0cf6b6b1751e1f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\Api\SendEmailController::index</definition>
+        <argsstring>()</argsstring>
+        <name>index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fungsi untuk test mengirim email</para>
+<para><simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/Api/SendEmailController.php" line="17" column="17" bodyfile="/project/app/Http/Controllers/Api/SendEmailController.php" bodystart="17" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>BaseController</label>
+      </node>
+      <node id="1">
+        <label>App\Http\Controllers\Api\SendEmailController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_api_1_1_send_email_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>App\Http\Controllers\Controller</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>BaseController</label>
+      </node>
+      <node id="1">
+        <label>App\Http\Controllers\Api\SendEmailController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_api_1_1_send_email_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>App\Http\Controllers\Controller</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/project/app/Http/Controllers/Api/SendEmailController.php" line="11" column="1" bodyfile="/project/app/Http/Controllers/Api/SendEmailController.php" bodystart="10" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_api_1_1_send_email_controller_1ac2deb9b45250acd4f0cf6b6b1751e1f1" prot="public" virt="non-virtual"><scope>App::Http::Controllers::Api::SendEmailController</scope><name>index</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_app_1_1_models_1_1_kategori" kind="class" language="PHP" prot="public">
+    <compoundname>App::Models::Kategori</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_kategori_1a511f4a6463b4ac0443d02ecda4b8a265" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Kategori::$table</definition>
+        <argsstring></argsstring>
+        <name>$table</name>
+        <initializer>= &apos;ms_kategori&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Models/Kategori.php" line="10" column="15" bodyfile="/project/app/Models/Kategori.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_kategori_1a5f8b666120a306d87620769eedbe09b8" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Kategori::$primaryKey</definition>
+        <argsstring></argsstring>
+        <name>$primaryKey</name>
+        <initializer>= &apos;kdKategori&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Models/Kategori.php" line="11" column="15" bodyfile="/project/app/Models/Kategori.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_kategori_1a2921cfbc236338e643b61c169ac7702b" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Kategori::$fillable</definition>
+        <argsstring></argsstring>
+        <name>$fillable</name>
+        <initializer>= [&apos;kdKategori&apos;,&apos;kdUser&apos;,&apos;jenisKategori&apos;,&apos;tglPublish&apos;,&apos;deleted&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Models/Kategori.php" line="12" column="15" bodyfile="/project/app/Models/Kategori.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>App\Models\Kategori</label>
+        <link refid="class_app_1_1_models_1_1_kategori"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>App\Models\Kategori</label>
+        <link refid="class_app_1_1_models_1_1_kategori"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="/project/app/Models/Kategori.php" line="8" column="1" bodyfile="/project/app/Models/Kategori.php" bodystart="7" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_models_1_1_kategori_1a2921cfbc236338e643b61c169ac7702b" prot="protected" virt="non-virtual"><scope>App::Models::Kategori</scope><name>$fillable</name></member>
+      <member refid="class_app_1_1_models_1_1_kategori_1a5f8b666120a306d87620769eedbe09b8" prot="protected" virt="non-virtual"><scope>App::Models::Kategori</scope><name>$primaryKey</name></member>
+      <member refid="class_app_1_1_models_1_1_kategori_1a511f4a6463b4ac0443d02ecda4b8a265" prot="protected" virt="non-virtual"><scope>App::Models::Kategori</scope><name>$table</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

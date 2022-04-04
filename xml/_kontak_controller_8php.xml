@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_kontak_controller_8php" kind="file" language="PHP">
+    <compoundname>KontakController.php</compoundname>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_kontak_controller" prot="public">App::Http::Controllers::KontakController</innerclass>
+    <innernamespace refid="namespace_app_1_1_http_1_1_controllers">App::Http::Controllers</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">App\Http\Controllers;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_kontak" kindref="compound">App\Models\Kontak</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/>Illuminate\Http\Request;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/>DB;</highlight></codeline>
+<codeline lineno="8" refid="class_app_1_1_http_1_1_controllers_1_1_kontak_controller" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_app_1_1_http_1_1_controllers_1_1_kontak_controller" kindref="compound">KontakController</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_controller" kindref="compound">Controller</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>__construct()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;middleware(</highlight><highlight class="stringliteral">&apos;auth&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_kontak_controller_1a05734219e62df4050bba7e9b51312972" kindref="member">index</ref>()</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>view(</highlight><highlight class="stringliteral">&apos;pages.kontak&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_kontak_controller_1a2cae5f7d5e6d22f557083e93231a9d08" kindref="member">getKontakData</ref>(Request<sp/>$request)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$kontaks<sp/>=<sp/>Kontak::where(</highlight><highlight class="stringliteral">&apos;deleted&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;0&apos;</highlight><highlight class="normal">)-&gt;orderBy(</highlight><highlight class="stringliteral">&apos;updated_at&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;desc&apos;</highlight><highlight class="normal">)-&gt;get();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>json_encode($kontaks);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_kontak_controller_1a3da56cf1e250663793851a5e2469cedd" kindref="member">show</ref>(<ref refid="class_app_1_1_models_1_1_kontak" kindref="compound">Kontak</ref><sp/>$kontak,<sp/>$id)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$kontak<sp/>=<sp/>Kontak::find($id);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$kontak-&gt;status<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$kontak-&gt;save();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$kontaks<sp/>=<sp/>Kontak::where(</highlight><highlight class="stringliteral">&apos;kdKontak&apos;</highlight><highlight class="normal">,<sp/>$id)-&gt;orderBy(</highlight><highlight class="stringliteral">&apos;updated_at&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;desc&apos;</highlight><highlight class="normal">)-&gt;get();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>view(</highlight><highlight class="stringliteral">&apos;pages.kontak-detail&apos;</highlight><highlight class="normal">,<sp/>compact(</highlight><highlight class="stringliteral">&apos;kontaks&apos;</highlight><highlight class="normal">));<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_kontak_controller_1ae051232723787aa4420cbcb2f81f82fc" kindref="member">deleteData</ref>($id){</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$kontak<sp/>=<sp/>Kontak::find($id);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$kontak-&gt;deleted<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$kontak-&gt;save();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>response()-&gt;json([</highlight><highlight class="stringliteral">&apos;success&apos;</highlight><highlight class="normal">=&gt;</highlight><highlight class="stringliteral">&quot;Sukses&quot;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_kontak_controller_1a3651e19148a708a07d946112d68026ab" kindref="member">deleteCheckedKontak</ref>(Request<sp/>$request){</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$kdKontak<sp/>=<sp/>$request-&gt;kdKontak;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">($count=0;<sp/>$count<sp/>&lt;<sp/>count(explode(</highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal">,$kdKontak));<sp/>$count++){</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$kontak<sp/>=<sp/>DB::table(</highlight><highlight class="stringliteral">&apos;ms_kontak&apos;</highlight><highlight class="normal">)-&gt;where(</highlight><highlight class="stringliteral">&apos;kdKontak&apos;</highlight><highlight class="normal">,explode(</highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal">,$kdKontak)[$count])</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-&gt;update([</highlight><highlight class="stringliteral">&apos;deleted&apos;</highlight><highlight class="normal">=&gt;1]);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>response()-&gt;json([</highlight><highlight class="stringliteral">&apos;success&apos;</highlight><highlight class="normal">=&gt;</highlight><highlight class="stringliteral">&quot;Sukses&quot;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/project/app/Http/Controllers/KontakController.php"/>
+  </compounddef>
+</doxygen>

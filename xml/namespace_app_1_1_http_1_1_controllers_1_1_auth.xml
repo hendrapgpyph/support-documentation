@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespace_app_1_1_http_1_1_controllers_1_1_auth" kind="namespace" language="PHP">
+    <compoundname>App::Http::Controllers::Auth</compoundname>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_forgot_password_controller" prot="public">App::Http::Controllers::Auth::ForgotPasswordController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_login_controller" prot="public">App::Http::Controllers::Auth::LoginController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_register_controller" prot="public">App::Http::Controllers::Auth::RegisterController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_reset_password_controller" prot="public">App::Http::Controllers::Auth::ResetPasswordController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_verification_controller" prot="public">App::Http::Controllers::Auth::VerificationController</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/project/app/Http/Controllers/Auth/ForgotPasswordController.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

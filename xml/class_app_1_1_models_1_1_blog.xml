@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_app_1_1_models_1_1_blog" kind="class" language="PHP" prot="public">
+    <compoundname>App::Models::Blog</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_blog_1aa5e2d64969d2afa4213fb67bd0c470a5" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Blog::$table</definition>
+        <argsstring></argsstring>
+        <name>$table</name>
+        <initializer>= &apos;ms_blog&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Models/Blog.php" line="12" column="15" bodyfile="/project/app/Models/Blog.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_blog_1a33027635830d41e0d2c4a06a2883a0fb" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Blog::$primaryKey</definition>
+        <argsstring></argsstring>
+        <name>$primaryKey</name>
+        <initializer>= &apos;kdBlog&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Models/Blog.php" line="13" column="15" bodyfile="/project/app/Models/Blog.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_blog_1a0d2f64f2b9c7d63599608b0f721fe523" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\Blog::$fillable</definition>
+        <argsstring></argsstring>
+        <name>$fillable</name>
+        <initializer>= [&apos;kdBlog&apos;,&apos;kdUser&apos;,&apos;judul&apos;,&apos;detail&apos;,&apos;simpleText&apos;, &apos;image&apos;, &apos;thumbnail&apos;, &apos;tglBuat&apos;, &apos;publish&apos;, &apos;tglPublish&apos;, &apos;publishBy&apos;, &apos;views&apos;,&apos;deleted&apos;, &apos;buttonPromosi&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Models/Blog.php" line="14" column="15" bodyfile="/project/app/Models/Blog.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_blog_1a105b371845accf2dc8bb33d91d7e9aa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Models\Blog::blogs</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>blogs</name>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mengambil data blog dengan pagination</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>Request</parametertype>
+<parametername>$request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>LengthAwarePaginator </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Models/Blog.php" line="22" column="21" bodyfile="/project/app/Models/Blog.php" bodystart="22" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>App\Models\Blog</label>
+        <link refid="class_app_1_1_models_1_1_blog"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>App\Models\Blog</label>
+        <link refid="class_app_1_1_models_1_1_blog"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="/project/app/Models/Blog.php" line="10" column="1" bodyfile="/project/app/Models/Blog.php" bodystart="9" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_models_1_1_blog_1a0d2f64f2b9c7d63599608b0f721fe523" prot="protected" virt="non-virtual"><scope>App::Models::Blog</scope><name>$fillable</name></member>
+      <member refid="class_app_1_1_models_1_1_blog_1a33027635830d41e0d2c4a06a2883a0fb" prot="protected" virt="non-virtual"><scope>App::Models::Blog</scope><name>$primaryKey</name></member>
+      <member refid="class_app_1_1_models_1_1_blog_1aa5e2d64969d2afa4213fb67bd0c470a5" prot="protected" virt="non-virtual"><scope>App::Models::Blog</scope><name>$table</name></member>
+      <member refid="class_app_1_1_models_1_1_blog_1a105b371845accf2dc8bb33d91d7e9aa9" prot="public" virt="non-virtual"><scope>App::Models::Blog</scope><name>blogs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

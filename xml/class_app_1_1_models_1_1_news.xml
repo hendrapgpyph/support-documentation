@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_app_1_1_models_1_1_news" kind="class" language="PHP" prot="public">
+    <compoundname>App::Models::News</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_news_1a3f71057e299d2fdd82440684fbb7b565" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\News::$table</definition>
+        <argsstring></argsstring>
+        <name>$table</name>
+        <initializer>= &apos;ms_news&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Models/News.php" line="10" column="15" bodyfile="/project/app/Models/News.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_news_1a6a2289c747cd4b6da23a8fa48cdffb37" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\News::$primaryKey</definition>
+        <argsstring></argsstring>
+        <name>$primaryKey</name>
+        <initializer>= &apos;kdNews&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Models/News.php" line="11" column="15" bodyfile="/project/app/Models/News.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_news_1aa8a9d2b74e041fe6cddfa5604218be0c" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\News::$fillable</definition>
+        <argsstring></argsstring>
+        <name>$fillable</name>
+        <initializer>= [&apos;kdNews&apos;,&apos;kdUser&apos;,&apos;judul&apos;,&apos;detail&apos;,&apos;simpleText&apos;, &apos;showNews&apos;,&apos;image&apos;, &apos;thumbnail&apos;, &apos;tglBuat&apos;, &apos;deleted&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Models/News.php" line="12" column="15" bodyfile="/project/app/Models/News.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>App\Models\News</label>
+        <link refid="class_app_1_1_models_1_1_news"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>App\Models\News</label>
+        <link refid="class_app_1_1_models_1_1_news"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="/project/app/Models/News.php" line="8" column="1" bodyfile="/project/app/Models/News.php" bodystart="7" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_models_1_1_news_1aa8a9d2b74e041fe6cddfa5604218be0c" prot="protected" virt="non-virtual"><scope>App::Models::News</scope><name>$fillable</name></member>
+      <member refid="class_app_1_1_models_1_1_news_1a6a2289c747cd4b6da23a8fa48cdffb37" prot="protected" virt="non-virtual"><scope>App::Models::News</scope><name>$primaryKey</name></member>
+      <member refid="class_app_1_1_models_1_1_news_1a3f71057e299d2fdd82440684fbb7b565" prot="protected" virt="non-virtual"><scope>App::Models::News</scope><name>$table</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

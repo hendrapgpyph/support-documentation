@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_http_2_kernel_8php" kind="file" language="PHP">
+    <compoundname>Kernel.php</compoundname>
+    <innerclass refid="class_app_1_1_http_1_1_kernel" prot="public">App::Http::Kernel</innerclass>
+    <innernamespace refid="namespace_app_1_1_http">App::Http</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">App\Http;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>Illuminate\Foundation\Http\Kernel<sp/>as<sp/>HttpKernel;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_app_1_1_http_1_1_kernel" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_app_1_1_http_1_1_kernel" kindref="compound">Kernel</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>HttpKernel</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>$middleware<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\App\Http\Middleware\CheckForMaintenanceMode::class,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\App\Http\Middleware\TrimStrings::class,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\App\Http\Middleware\TrustProxies::class,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>$middlewareGroups<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;web&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>[</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\App\Http\Middleware\EncryptCookies::class,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\Illuminate\Session\Middleware\StartSession::class,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>\Illuminate\Session\Middleware\AuthenticateSession::class,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\Illuminate\View\Middleware\ShareErrorsFromSession::class,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\App\Http\Middleware\VerifyCsrfToken::class,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\Illuminate\Routing\Middleware\SubstituteBindings::class,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;api&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>[</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;throttle:60,1&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;bindings&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>$routeMiddleware<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;auth&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>\App\Http\Middleware\Authenticate::class,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;auth.basic&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>\Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;bindings&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>\Illuminate\Routing\Middleware\SubstituteBindings::class,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;cache.headers&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>\Illuminate\Http\Middleware\SetCacheHeaders::class,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;can&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>\Illuminate\Auth\Middleware\Authorize::class,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;guest&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>\App\Http\Middleware\RedirectIfAuthenticated::class,</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;signed&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>\Illuminate\Routing\Middleware\ValidateSignature::class,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;throttle&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>\Illuminate\Routing\Middleware\ThrottleRequests::class,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;verified&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>\Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;cors&apos;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>=&gt;<sp/>\App\Http\Middleware\Cors::class,<sp/></highlight><highlight class="comment">//<sp/>added</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;updatepublish&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>\App\Http\Middleware\UpdatePublish::class,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;roles&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>\App\Http\Middleware\Roles::class,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>$middlewarePriority<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\Illuminate\Session\Middleware\StartSession::class,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\Illuminate\View\Middleware\ShareErrorsFromSession::class,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\App\Http\Middleware\Authenticate::class,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\Illuminate\Session\Middleware\AuthenticateSession::class,</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\Illuminate\Routing\Middleware\SubstituteBindings::class,</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\Illuminate\Auth\Middleware\Authorize::class,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/project/app/Http/Kernel.php"/>
+  </compounddef>
+</doxygen>

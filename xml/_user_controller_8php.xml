@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_user_controller_8php" kind="file" language="PHP">
+    <compoundname>UserController.php</compoundname>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_user_controller" prot="public">App::Http::Controllers::UserController</innerclass>
+    <innernamespace refid="namespace_app_1_1_http_1_1_controllers">App::Http::Controllers</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">App\Http\Controllers;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>Illuminate\Http\Request;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">Use<sp/>DB;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">Use<sp/>Session;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_user" kindref="compound">App\Models\User</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">use<sp/>Illuminate\Support\Facades\Hash;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_app_1_1_http_1_1_controllers_1_1_user_controller" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_app_1_1_http_1_1_controllers_1_1_user_controller" kindref="compound">UserController</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_controller" kindref="compound">Controller</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>__construct()</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;middleware(</highlight><highlight class="stringliteral">&apos;auth&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_user_controller_1ac3fda256aafdd1f7edfbeed37cff7c1b" kindref="member">profil</ref>(Request<sp/>$request,<sp/>$id){</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$users<sp/>=<sp/>User::where(</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">,<sp/>$id)-&gt;get();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>view(</highlight><highlight class="stringliteral">&apos;pages.profil&apos;</highlight><highlight class="normal">,<sp/>compact(</highlight><highlight class="stringliteral">&apos;users&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_user_controller_1ac1e069399264956d635ace5269623836" kindref="member">update_profil</ref>(Request<sp/>$request,<sp/>$id){</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>dd($request-&gt;all());</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$users<sp/>=<sp/>User::find($request-&gt;id);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$users-&gt;name<sp/>=<sp/>$request-&gt;name;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$users-&gt;email<sp/>=<sp/>$request-&gt;email;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">($request-&gt;role){</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$role_user<sp/>=<sp/>$request-&gt;role;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$role_user<sp/>=<sp/>$users-&gt;role;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">($request-&gt;password<sp/>!=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>$request-&gt;password_confirmation<sp/>!=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$user<sp/>=<sp/>DB::table(</highlight><highlight class="stringliteral">&apos;users&apos;</highlight><highlight class="normal">)-&gt;where(</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">,<sp/>$id)-&gt;get();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($user<sp/>as<sp/>$row){</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$password=<sp/>$row-&gt;password;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">($request-&gt;password<sp/>==<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal"><sp/>or<sp/>$request-&gt;password<sp/>==<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$users-&gt;password<sp/>=<sp/>$password;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$users-&gt;password<sp/>=<sp/>bcrypt(request(</highlight><highlight class="stringliteral">&apos;password&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$users-&gt;save();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>response()-&gt;json([</highlight><highlight class="stringliteral">&apos;success&apos;</highlight><highlight class="normal">=&gt;</highlight><highlight class="stringliteral">&quot;Sukses&quot;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>return<sp/>redirect(&apos;/admin-dashboard&apos;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_user_controller_1a02bdcea3efb6e3475a06aadfde28dfe8" kindref="member">form_user</ref>(){</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$jumlah_user<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>view(</highlight><highlight class="stringliteral">&apos;pages.form-user&apos;</highlight><highlight class="normal">,compact(</highlight><highlight class="stringliteral">&apos;jumlah_user&apos;</highlight><highlight class="normal">));<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_user_controller_1a2bf795982f5bcdd94bf2a2ef668c2127" kindref="member">getUserData</ref>(Request<sp/>$request)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$users<sp/>=<sp/>User::where(</highlight><highlight class="stringliteral">&apos;deleted&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;0&apos;</highlight><highlight class="normal">)-&gt;get();</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>json_encode($users);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_user_controller_1a7d76e1f500118f7bec6110c38b0f1b69" kindref="member">user</ref>(){</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>view(</highlight><highlight class="stringliteral">&apos;pages.user&apos;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_user_controller_1ad2fc3d245446d84fd741076b52e36501" kindref="member">edit_user</ref>(Request<sp/>$request,<sp/>$id){</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$users<sp/>=<sp/>User::where(</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">,<sp/>$id)-&gt;where(</highlight><highlight class="stringliteral">&apos;deleted&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;0&apos;</highlight><highlight class="normal">)-&gt;get();</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$jumlah_user<sp/>=<sp/>count($users);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>view(</highlight><highlight class="stringliteral">&apos;pages.form-user&apos;</highlight><highlight class="normal">,<sp/>compact(</highlight><highlight class="stringliteral">&apos;users&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;jumlah_user&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_user_controller_1ab6c89903c723d39cc9c0437a8b6c1b5a" kindref="member">store_user</ref>(Request<sp/>$request){</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$user<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_models_1_1_user" kindref="compound">User</ref>();</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$user-&gt;email<sp/>=<sp/>$request-&gt;email;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$user-&gt;name<sp/>=<sp/>$request-&gt;name;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$user-&gt;role<sp/>=<sp/>$request-&gt;role;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$user-&gt;deleted<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$user-&gt;password<sp/>=<sp/>bcrypt(request(</highlight><highlight class="stringliteral">&apos;password&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$user-&gt;save();</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>response()-&gt;json([</highlight><highlight class="stringliteral">&apos;success&apos;</highlight><highlight class="normal">=&gt;</highlight><highlight class="stringliteral">&quot;Sukses&quot;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_user_controller_1a449fd8e4a7ddebf907ad46ca23f0447f" kindref="member">delete_user</ref>(Request<sp/>$request){</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$user<sp/>=<sp/>User::find($request-&gt;id);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$user-&gt;deleted<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$user-&gt;save();</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>response()-&gt;json([</highlight><highlight class="stringliteral">&apos;success&apos;</highlight><highlight class="normal">=&gt;</highlight><highlight class="stringliteral">&quot;Sukses&quot;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_user_controller_1a3627f594ce4e6e97c376ca1979ca1b93" kindref="member">deleteCheckedUser</ref>(Request<sp/>$request){</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$id<sp/>=<sp/>$request-&gt;id;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">($count=0;<sp/>$count<sp/>&lt;<sp/>count(explode(</highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal">,$id));<sp/>$count++){</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$User<sp/>=<sp/>DB::table(</highlight><highlight class="stringliteral">&apos;users&apos;</highlight><highlight class="normal">)-&gt;where(</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">,explode(</highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal">,$id)[$count])</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-&gt;update([</highlight><highlight class="stringliteral">&apos;deleted&apos;</highlight><highlight class="normal">=&gt;1]);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>response()-&gt;json([</highlight><highlight class="stringliteral">&apos;success&apos;</highlight><highlight class="normal">=&gt;</highlight><highlight class="stringliteral">&quot;Sukses&quot;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/project/app/Http/Controllers/UserController.php"/>
+  </compounddef>
+</doxygen>

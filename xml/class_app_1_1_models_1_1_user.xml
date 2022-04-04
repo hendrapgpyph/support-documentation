@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_app_1_1_models_1_1_user" kind="class" language="PHP" prot="public">
+    <compoundname>App::Models::User</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Authenticatable</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_user_1ab4030437e467a0cc396b0c3ea53199f7" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\User::$fillable</definition>
+        <argsstring></argsstring>
+        <name>$fillable</name>
+        <initializer>= [
+        &apos;name&apos;, &apos;email&apos;, &apos;password&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Models/User.php" line="18" column="15" bodyfile="/project/app/Models/User.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_user_1a1f25bef37dae884e548034f839fa1f63" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\User::$hidden</definition>
+        <argsstring></argsstring>
+        <name>$hidden</name>
+        <initializer>= [
+        &apos;password&apos;, &apos;remember_token&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Models/User.php" line="27" column="15" bodyfile="/project/app/Models/User.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_user_1a5c1736a4adf4ff10495df9a6c4e6dd8e" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Models\User::$casts</definition>
+        <argsstring></argsstring>
+        <name>$casts</name>
+        <initializer>= [
+        &apos;email_verified_at&apos; =&gt; &apos;datetime&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Models/User.php" line="36" column="15" bodyfile="/project/app/Models/User.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>App\Models\User</label>
+        <link refid="class_app_1_1_models_1_1_user"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Authenticatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>App\Models\User</label>
+        <link refid="class_app_1_1_models_1_1_user"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Authenticatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/project/app/Models/User.php" line="10" column="1" bodyfile="/project/app/Models/User.php" bodystart="9" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_models_1_1_user_1a5c1736a4adf4ff10495df9a6c4e6dd8e" prot="protected" virt="non-virtual"><scope>App::Models::User</scope><name>$casts</name></member>
+      <member refid="class_app_1_1_models_1_1_user_1ab4030437e467a0cc396b0c3ea53199f7" prot="protected" virt="non-virtual"><scope>App::Models::User</scope><name>$fillable</name></member>
+      <member refid="class_app_1_1_models_1_1_user_1a1f25bef37dae884e548034f839fa1f63" prot="protected" virt="non-virtual"><scope>App::Models::User</scope><name>$hidden</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

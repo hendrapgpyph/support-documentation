@@ -1,0 +1,428 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_app_1_1_http_1_1_controllers_1_1_news_controller" kind="class" language="PHP" prot="public">
+    <compoundname>App::Http::Controllers::NewsController</compoundname>
+    <basecompoundref refid="class_app_1_1_http_1_1_controllers_1_1_controller" prot="public" virt="non-virtual">App\Http\Controllers\Controller</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_news_controller_1a8779e934786429c449fc4004912db70b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\NewsController::__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/NewsController.php" line="16" column="21" bodyfile="/project/app/Http/Controllers/NewsController.php" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_news_controller_1a43f0bd701457fbb3941a9ac883aa3c77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\NewsController::index</definition>
+        <argsstring>()</argsstring>
+        <name>index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Menampilkan halaman news.</para>
+<para><simplesect kind="return"><para>\Illuminate\Http\Response </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/NewsController.php" line="25" column="21" bodyfile="/project/app/Http/Controllers/NewsController.php" bodystart="25" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_news_controller_1a3e3d570ecae32eb744e73d071ac522e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\NewsController::getNewsData</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>getNewsData</name>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mendapatkan data news diurutkan berdasarkan tanggal publish terbaru</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>Request</parametertype>
+<parametername>$request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/NewsController.php" line="37" column="21" bodyfile="/project/app/Http/Controllers/NewsController.php" bodystart="37" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_news_controller_1a6040e2735896f06dd97ec20b3d3dd1a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\NewsController::create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Menampilkan halaman form news.</para>
+<para><simplesect kind="return"><para>\Illuminate\Http\Response </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/NewsController.php" line="47" column="21" bodyfile="/project/app/Http/Controllers/NewsController.php" bodystart="47" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_news_controller_1afed093e1e7b0f5bc2b2a3c7c95509a8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\NewsController::store</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>store</name>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Proses untuk menambahkan data news.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\Illuminate\Http\Request</parametertype>
+<parametername>$request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>\Illuminate\Http\Response </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/NewsController.php" line="61" column="21" bodyfile="/project/app/Http/Controllers/NewsController.php" bodystart="61" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_news_controller_1a3a7e479fec2c8bcf8aedfb4086473318" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\NewsController::show</definition>
+        <argsstring>(News $news)</argsstring>
+        <name>show</name>
+        <param>
+          <type><ref refid="class_app_1_1_models_1_1_news" kindref="compound">News</ref></type>
+          <declname>$news</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Display the specified resource.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\App\News</parametertype>
+<parametername>$news</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>\Illuminate\Http\Response </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/NewsController.php" line="131" column="21" bodyfile="/project/app/Http/Controllers/NewsController.php" bodystart="131" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_news_controller_1a929dd718e1738ac46e5f470325524813" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\NewsController::edit</definition>
+        <argsstring>($id)</argsstring>
+        <name>edit</name>
+        <param>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Menampilkan formulir edit news.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\App\News</parametertype>
+<parametername>$news</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>\Illuminate\Http\Response </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/NewsController.php" line="143" column="21" bodyfile="/project/app/Http/Controllers/NewsController.php" bodystart="143" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_news_controller_1a81349130084e7d044b86b477d6467d4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\NewsController::getNewsEdit</definition>
+        <argsstring>($id)</argsstring>
+        <name>getNewsEdit</name>
+        <param>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Menampilkan data news yang di edit</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>Int</parametertype>
+<parametername>$id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/NewsController.php" line="155" column="21" bodyfile="/project/app/Http/Controllers/NewsController.php" bodystart="155" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_news_controller_1ab4772938d560b2ca6d7127c015739f5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\NewsController::update</definition>
+        <argsstring>(Request $request, $id)</argsstring>
+        <name>update</name>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <param>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Proses untuk mengupdate data news.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\Illuminate\Http\Request</parametertype>
+<parametername>$request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>\App\News</parametertype>
+<parametername>$news</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>\Illuminate\Http\Response </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/NewsController.php" line="167" column="21" bodyfile="/project/app/Http/Controllers/NewsController.php" bodystart="167" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_news_controller_1ae5cedeb51eb75658a9812c07a1989113" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\NewsController::destroy</definition>
+        <argsstring>($id)</argsstring>
+        <name>destroy</name>
+        <param>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Proses untuk menghapus data news. (not used)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\App\Promo</parametertype>
+<parametername>$promo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>\Illuminate\Http\Response </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/NewsController.php" line="312" column="21" bodyfile="/project/app/Http/Controllers/NewsController.php" bodystart="312" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_news_controller_1a11017065277cfb292e7b4589ba3d64b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\NewsController::deleteData</definition>
+        <argsstring>($id)</argsstring>
+        <name>deleteData</name>
+        <param>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Proses untuk menghapus data news</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>Int</parametertype>
+<parametername>$id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/NewsController.php" line="325" column="21" bodyfile="/project/app/Http/Controllers/NewsController.php" bodystart="325" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_news_controller_1a5c94ffacdbb65a025019f582305e5c4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\NewsController::deleteCheckedNews</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>deleteCheckedNews</name>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Menghapus data news yang dipilih</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>Request</parametertype>
+<parametername>$request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/NewsController.php" line="342" column="21" bodyfile="/project/app/Http/Controllers/NewsController.php" bodystart="342" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_news_controller_1accd102ead8c26e11262918cdeb196ea9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\NewsController::publikasi</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>publikasi</name>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Proses publikasi news yang dipilih</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>Request</parametertype>
+<parametername>$request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/NewsController.php" line="361" column="21" bodyfile="/project/app/Http/Controllers/NewsController.php" bodystart="361" bodyend="380"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>BaseController</label>
+      </node>
+      <node id="1">
+        <label>App\Http\Controllers\NewsController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_news_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>App\Http\Controllers\Controller</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>BaseController</label>
+      </node>
+      <node id="1">
+        <label>App\Http\Controllers\NewsController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_news_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>App\Http\Controllers\Controller</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/project/app/Http/Controllers/NewsController.php" line="15" column="1" bodyfile="/project/app/Http/Controllers/NewsController.php" bodystart="14" bodyend="381"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_news_controller_1a8779e934786429c449fc4004912db70b" prot="public" virt="non-virtual"><scope>App::Http::Controllers::NewsController</scope><name>__construct</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_news_controller_1a6040e2735896f06dd97ec20b3d3dd1a8" prot="public" virt="non-virtual"><scope>App::Http::Controllers::NewsController</scope><name>create</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_news_controller_1a5c94ffacdbb65a025019f582305e5c4f" prot="public" virt="non-virtual"><scope>App::Http::Controllers::NewsController</scope><name>deleteCheckedNews</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_news_controller_1a11017065277cfb292e7b4589ba3d64b1" prot="public" virt="non-virtual"><scope>App::Http::Controllers::NewsController</scope><name>deleteData</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_news_controller_1ae5cedeb51eb75658a9812c07a1989113" prot="public" virt="non-virtual"><scope>App::Http::Controllers::NewsController</scope><name>destroy</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_news_controller_1a929dd718e1738ac46e5f470325524813" prot="public" virt="non-virtual"><scope>App::Http::Controllers::NewsController</scope><name>edit</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_news_controller_1a3e3d570ecae32eb744e73d071ac522e5" prot="public" virt="non-virtual"><scope>App::Http::Controllers::NewsController</scope><name>getNewsData</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_news_controller_1a81349130084e7d044b86b477d6467d4f" prot="public" virt="non-virtual"><scope>App::Http::Controllers::NewsController</scope><name>getNewsEdit</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_news_controller_1a43f0bd701457fbb3941a9ac883aa3c77" prot="public" virt="non-virtual"><scope>App::Http::Controllers::NewsController</scope><name>index</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_news_controller_1accd102ead8c26e11262918cdeb196ea9" prot="public" virt="non-virtual"><scope>App::Http::Controllers::NewsController</scope><name>publikasi</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_news_controller_1a3a7e479fec2c8bcf8aedfb4086473318" prot="public" virt="non-virtual"><scope>App::Http::Controllers::NewsController</scope><name>show</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_news_controller_1afed093e1e7b0f5bc2b2a3c7c95509a8c" prot="public" virt="non-virtual"><scope>App::Http::Controllers::NewsController</scope><name>store</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_news_controller_1ab4772938d560b2ca6d7127c015739f5e" prot="public" virt="non-virtual"><scope>App::Http::Controllers::NewsController</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,416 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_app_1_1_http_1_1_controllers_1_1_blog_controller" kind="class" language="PHP" prot="public">
+    <compoundname>App::Http::Controllers::BlogController</compoundname>
+    <basecompoundref refid="class_app_1_1_http_1_1_controllers_1_1_controller" prot="public" virt="non-virtual">App\Http\Controllers\Controller</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a3f85bddf0eb394f7199f5d2f4dcd0134" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\BlogController::__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/BlogController.php" line="17" column="21" bodyfile="/project/app/Http/Controllers/BlogController.php" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a79359d423c73ae6a6730a7339dc72bd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\BlogController::index</definition>
+        <argsstring>()</argsstring>
+        <name>index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Menampilkan halaman Blog</para>
+<para><simplesect kind="return"><para>\Illuminate\Http\Response </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/BlogController.php" line="26" column="21" bodyfile="/project/app/Http/Controllers/BlogController.php" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a03a127b2fb9c382740f88ad1ca189ec4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\BlogController::getBlogData</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>getBlogData</name>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get data blog dalam bentuk json</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>Request</parametertype>
+<parametername>$request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/BlogController.php" line="37" column="21" bodyfile="/project/app/Http/Controllers/BlogController.php" bodystart="37" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1acd1c6b050cb6fe65f01ec6fc204cc770" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\BlogController::create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Menampilkan halaman form blog.</para>
+<para><simplesect kind="return"><para>\Illuminate\Http\Response </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/BlogController.php" line="47" column="21" bodyfile="/project/app/Http/Controllers/BlogController.php" bodystart="47" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a98748b5a9c98dcb59b8c8f865673c92e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\BlogController::store</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>store</name>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fungsi untuk menyimpan data blog.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\Illuminate\Http\Request</parametertype>
+<parametername>$request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>\Illuminate\Http\Response </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/BlogController.php" line="64" column="21" bodyfile="/project/app/Http/Controllers/BlogController.php" bodystart="64" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a7613c2c2944ec45d1a8f1168cf324a95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\BlogController::show</definition>
+        <argsstring>(Blog $blog)</argsstring>
+        <name>show</name>
+        <param>
+          <type><ref refid="class_app_1_1_models_1_1_blog" kindref="compound">Blog</ref></type>
+          <declname>$blog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fungsi untuk menampilkan list blog.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\App\Blog</parametertype>
+<parametername>$blog</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>\Illuminate\Http\Response </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/BlogController.php" line="159" column="21" bodyfile="/project/app/Http/Controllers/BlogController.php" bodystart="159" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a15d9edd16f16be389c8936e35f580055" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\BlogController::edit</definition>
+        <argsstring>($id)</argsstring>
+        <name>edit</name>
+        <param>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Menampilkan halaman edit blog</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\App\Blog</parametertype>
+<parametername>$blog</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>\Illuminate\Http\Response </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/BlogController.php" line="170" column="21" bodyfile="/project/app/Http/Controllers/BlogController.php" bodystart="170" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a8deda9f79a6cd879c68afe1a429a194f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\BlogController::update</definition>
+        <argsstring>(Request $request, $id)</argsstring>
+        <name>update</name>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <param>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fungsi untuk proses update data blog</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\Illuminate\Http\Request</parametertype>
+<parametername>$request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>\App\Blog</parametertype>
+<parametername>$blog</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>\Illuminate\Http\Response </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/BlogController.php" line="187" column="21" bodyfile="/project/app/Http/Controllers/BlogController.php" bodystart="187" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a66ed9c36475aa1042a04594a93459f6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\BlogController::destroy</definition>
+        <argsstring>($id)</argsstring>
+        <name>destroy</name>
+        <param>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fungsi untuk menghapus data blog.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\App\Blog</parametertype>
+<parametername>$blog</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>\Illuminate\Http\Response </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/BlogController.php" line="347" column="21" bodyfile="/project/app/Http/Controllers/BlogController.php" bodystart="347" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a83a8c286e26ee09b103516a84672897d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\BlogController::deleteData</definition>
+        <argsstring>($id)</argsstring>
+        <name>deleteData</name>
+        <param>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fungsi untuk menghapus data blog serta slider terkait</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>Int</parametertype>
+<parametername>$id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Blog id </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/BlogController.php" line="361" column="21" bodyfile="/project/app/Http/Controllers/BlogController.php" bodystart="361" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a614585ba2bf0108984eed3c337fe0cd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\BlogController::deleteCheckedBlog</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>deleteCheckedBlog</name>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fungsi untuk menghapus blog yang di check</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>Request</parametertype>
+<parametername>$request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/BlogController.php" line="379" column="21" bodyfile="/project/app/Http/Controllers/BlogController.php" bodystart="379" bodyend="390"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a1517e0d04dde2120f599702f9365faea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\BlogController::publikasi</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>publikasi</name>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fungsi untuk set publikasi blog yang dipilih</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>Request</parametertype>
+<parametername>$request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/BlogController.php" line="398" column="21" bodyfile="/project/app/Http/Controllers/BlogController.php" bodystart="398" bodyend="420"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a15eca47ac702d5e30e0f7b5740ea6673" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App\Http\Controllers\BlogController::TestNewBlog</definition>
+        <argsstring>(Request $req)</argsstring>
+        <name>TestNewBlog</name>
+        <param>
+          <type>Request</type>
+          <declname>$req</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Test new function aja deh </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Controllers/BlogController.php" line="424" column="21" bodyfile="/project/app/Http/Controllers/BlogController.php" bodystart="424" bodyend="427"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>App\Http\Controllers\BlogController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_blog_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>BaseController</label>
+      </node>
+      <node id="2">
+        <label>App\Http\Controllers\Controller</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>App\Http\Controllers\BlogController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_blog_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>BaseController</label>
+      </node>
+      <node id="2">
+        <label>App\Http\Controllers\Controller</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/project/app/Http/Controllers/BlogController.php" line="16" column="1" bodyfile="/project/app/Http/Controllers/BlogController.php" bodystart="15" bodyend="429"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a3f85bddf0eb394f7199f5d2f4dcd0134" prot="public" virt="non-virtual"><scope>App::Http::Controllers::BlogController</scope><name>__construct</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1acd1c6b050cb6fe65f01ec6fc204cc770" prot="public" virt="non-virtual"><scope>App::Http::Controllers::BlogController</scope><name>create</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a614585ba2bf0108984eed3c337fe0cd3" prot="public" virt="non-virtual"><scope>App::Http::Controllers::BlogController</scope><name>deleteCheckedBlog</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a83a8c286e26ee09b103516a84672897d" prot="public" virt="non-virtual"><scope>App::Http::Controllers::BlogController</scope><name>deleteData</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a66ed9c36475aa1042a04594a93459f6d" prot="public" virt="non-virtual"><scope>App::Http::Controllers::BlogController</scope><name>destroy</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a15d9edd16f16be389c8936e35f580055" prot="public" virt="non-virtual"><scope>App::Http::Controllers::BlogController</scope><name>edit</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a03a127b2fb9c382740f88ad1ca189ec4" prot="public" virt="non-virtual"><scope>App::Http::Controllers::BlogController</scope><name>getBlogData</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a79359d423c73ae6a6730a7339dc72bd6" prot="public" virt="non-virtual"><scope>App::Http::Controllers::BlogController</scope><name>index</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a1517e0d04dde2120f599702f9365faea" prot="public" virt="non-virtual"><scope>App::Http::Controllers::BlogController</scope><name>publikasi</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a7613c2c2944ec45d1a8f1168cf324a95" prot="public" virt="non-virtual"><scope>App::Http::Controllers::BlogController</scope><name>show</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a98748b5a9c98dcb59b8c8f865673c92e" prot="public" virt="non-virtual"><scope>App::Http::Controllers::BlogController</scope><name>store</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a15eca47ac702d5e30e0f7b5740ea6673" prot="public" virt="non-virtual"><scope>App::Http::Controllers::BlogController</scope><name>TestNewBlog</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_blog_controller_1a8deda9f79a6cd879c68afe1a429a194f" prot="public" virt="non-virtual"><scope>App::Http::Controllers::BlogController</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

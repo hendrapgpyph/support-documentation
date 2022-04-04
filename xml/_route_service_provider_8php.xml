@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_route_service_provider_8php" kind="file" language="PHP">
+    <compoundname>RouteServiceProvider.php</compoundname>
+    <innerclass refid="class_app_1_1_providers_1_1_route_service_provider" prot="public">App::Providers::RouteServiceProvider</innerclass>
+    <innernamespace refid="namespace_app_1_1_providers">App::Providers</innernamespace>
+    <innernamespace refid="namespace_illuminate_1_1_support_1_1_facades_1_1_route">Illuminate::Support::Facades::Route</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">App\Providers;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>Illuminate\Support\Facades\Route;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/>Illuminate\Foundation\Support\Providers\RouteServiceProvider<sp/>as<sp/>ServiceProvider;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_app_1_1_providers_1_1_route_service_provider" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_app_1_1_providers_1_1_route_service_provider" kindref="compound">RouteServiceProvider</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>ServiceProvider</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>$namespace<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;App\Http\Controllers&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_providers_1_1_route_service_provider_1a56a795694834493c054b9eac589b572a" kindref="member">boot</ref>()</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parent::boot();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_providers_1_1_route_service_provider_1abc846a0d7d6bcee79339e13138d85cc0" kindref="member">map</ref>()</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;<ref refid="class_app_1_1_providers_1_1_route_service_provider_1a660838a59ca5bafe9335e6f26cc8b157" kindref="member">mapApiRoutes</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;<ref refid="class_app_1_1_providers_1_1_route_service_provider_1a0c780627a321cd6d38f826afc9535e5f" kindref="member">mapWebRoutes</ref>();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_providers_1_1_route_service_provider_1a0c780627a321cd6d38f826afc9535e5f" kindref="member">mapWebRoutes</ref>()</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Route::middleware(</highlight><highlight class="stringliteral">&apos;web&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-&gt;namespace($this-&gt;</highlight><highlight class="keyword">namespace</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-&gt;group(base_path(</highlight><highlight class="stringliteral">&apos;routes/web.php&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_providers_1_1_route_service_provider_1a660838a59ca5bafe9335e6f26cc8b157" kindref="member">mapApiRoutes</ref>()</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Route::prefix(</highlight><highlight class="stringliteral">&apos;api&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-&gt;middleware(</highlight><highlight class="stringliteral">&apos;api&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-&gt;namespace($this-&gt;</highlight><highlight class="keyword">namespace</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-&gt;group(base_path(</highlight><highlight class="stringliteral">&apos;routes/api.php&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/project/app/Providers/RouteServiceProvider.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,463 @@
+/project/app/Providers/EventServiceProvider.php:11: warning: Compound App::Providers::EventServiceProvider is not documented.
+/project/app/Http/Controllers/Api/YoutubeController.php:10: warning: Compound App::Http::Controllers::Api::YoutubeController is not documented.
+/project/app/Http/Controllers/Auth/VerificationController.php:9: warning: Compound App::Http::Controllers::Auth::VerificationController is not documented.
+/project/app/Http/Controllers/Auth/ForgotPasswordController.php:9: warning: Compound App::Http::Controllers::Auth::ForgotPasswordController is not documented.
+/project/app/Http/Controllers/Auth/LoginController.php:9: warning: Compound App::Http::Controllers::Auth::LoginController is not documented.
+/project/app/Mail/SendEmail.php:11: warning: Compound App::Mail::SendEmail is not documented.
+/project/app/Http/Controllers/HomeController.php:8: warning: Compound App::Http::Controllers::HomeController is not documented.
+/project/app/Http/Middleware/Authenticate.php:8: warning: Compound App::Http::Middleware::Authenticate is not documented.
+/project/app/Console/Commands/OnShowFaq.php:10: warning: Compound App::Console::Commands::OnShowFaq is not documented.
+/project/app/Http/Controllers/Api/KontakController.php:12: warning: Compound App::Http::Controllers::Api::KontakController is not documented.
+/project/app/Http/Middleware/TrustProxies.php:9: warning: Compound App::Http::Middleware::TrustProxies is not documented.
+/project/app/Models/Kontak.php:8: warning: Compound App::Models::Kontak is not documented.
+/project/app/Models/BlogKategori.php:8: warning: Compound App::Models::BlogKategori is not documented.
+/project/app/Exceptions/Handler.php:9: warning: Compound App::Exceptions::Handler is not documented.
+/project/app/Http/Controllers/BlogController.php:16: warning: Compound App::Http::Controllers::BlogController is not documented.
+/project/app/Http/Controllers/PromoController.php:15: warning: Compound App::Http::Controllers::PromoController is not documented.
+/project/app/Http/Controllers/Api/RegistrasiController.php:10: warning: Compound App::Http::Controllers::Api::RegistrasiController is not documented.
+/project/app/Models/UploadImage.php:9: warning: Compound App::Models::UploadImage is not documented.
+/project/app/Http/Controllers/KategoriController.php:14: warning: Compound App::Http::Controllers::KategoriController is not documented.
+/project/app/Http/Controllers/KontakController.php:9: warning: Compound App::Http::Controllers::KontakController is not documented.
+/project/app/Http/Controllers/MetaController.php:10: warning: Compound App::Http::Controllers::MetaController is not documented.
+/project/app/Http/Controllers/Auth/ResetPasswordController.php:9: warning: Compound App::Http::Controllers::Auth::ResetPasswordController is not documented.
+/project/app/Http/Controllers/Api/BlogController.php:10: warning: Compound App::Http::Controllers::Api::BlogController is not documented.
+/project/app/Http/Controllers/Api/MetaController.php:12: warning: Compound App::Http::Controllers::Api::MetaController is not documented.
+/project/app/Http/Controllers/SitemapController.php:9: warning: Compound App::Http::Controllers::SitemapController is not documented.
+/project/app/Providers/RouteServiceProvider.php:9: warning: Compound App::Providers::RouteServiceProvider is not documented.
+/project/app/Http/Middleware/Roles.php:8: warning: Compound App::Http::Middleware::Roles is not documented.
+/project/app/Providers/BroadcastServiceProvider.php:9: warning: Compound App::Providers::BroadcastServiceProvider is not documented.
+/project/app/Http/Controllers/Api/KeunggulanController.php:9: warning: Compound App::Http::Controllers::Api::KeunggulanController is not documented.
+/project/app/Http/Controllers/Api/SliderController.php:9: warning: Compound App::Http::Controllers::Api::SliderController is not documented.
+/project/app/Http/Controllers/Api/FaqController.php:9: warning: Compound App::Http::Controllers::Api::FaqController is not documented.
+/project/app/Console/Kernel.php:9: warning: Compound App::Console::Kernel is not documented.
+/project/app/Http/Controllers/Api/NewsController.php:10: warning: Compound App::Http::Controllers::Api::NewsController is not documented.
+/project/app/Models/News.php:8: warning: Compound App::Models::News is not documented.
+/project/app/Http/Controllers/Auth/RegisterController.php:12: warning: Compound App::Http::Controllers::Auth::RegisterController is not documented.
+/project/app/Http/Middleware/Cors.php:8: warning: Compound App::Http::Middleware::Cors is not documented.
+/project/app/Http/Controllers/Api/SendEmailController.php:11: warning: Compound App::Http::Controllers::Api::SendEmailController is not documented.
+/project/app/Http/Middleware/UpdatePublish.php:9: warning: Compound App::Http::Middleware::UpdatePublish is not documented.
+/project/app/Http/Controllers/SliderController.php:16: warning: Compound App::Http::Controllers::SliderController is not documented.
+/project/app/Http/Controllers/UserController.php:12: warning: Compound App::Http::Controllers::UserController is not documented.
+/project/app/Http/Kernel.php:8: warning: Compound App::Http::Kernel is not documented.
+/project/app/Http/Middleware/TrimStrings.php:8: warning: Compound App::Http::Middleware::TrimStrings is not documented.
+/project/app/Http/Middleware/CheckForMaintenanceMode.php:8: warning: Compound App::Http::Middleware::CheckForMaintenanceMode is not documented.
+/project/app/Http/Middleware/EncryptCookies.php:8: warning: Compound App::Http::Middleware::EncryptCookies is not documented.
+/project/app/Http/Controllers/NewsController.php:15: warning: Compound App::Http::Controllers::NewsController is not documented.
+/project/app/Models/Faq.php:8: warning: Compound App::Models::Faq is not documented.
+/project/app/Models/Slider.php:8: warning: Compound App::Models::Slider is not documented.
+/project/app/Http/Middleware/RedirectIfAuthenticated.php:9: warning: Compound App::Http::Middleware::RedirectIfAuthenticated is not documented.
+/project/app/Http/Controllers/Api/PromoController.php:10: warning: Compound App::Http::Controllers::Api::PromoController is not documented.
+/project/app/Http/Controllers/Api/KategoriController.php:9: warning: Compound App::Http::Controllers::Api::KategoriController is not documented.
+/project/app/Http/Middleware/VerifyCsrfToken.php:8: warning: Compound App::Http::Middleware::VerifyCsrfToken is not documented.
+/project/app/Jobs/RegistrasiPelanggan.php:14: warning: Compound App::Jobs::RegistrasiPelanggan is not documented.
+/project/app/Models/Blog.php:10: warning: Compound App::Models::Blog is not documented.
+/project/app/Providers/AppServiceProvider.php:9: warning: Compound App::Providers::AppServiceProvider is not documented.
+/project/app/Models/Kategori.php:8: warning: Compound App::Models::Kategori is not documented.
+/project/app/Models/Registrasi.php:8: warning: Compound App::Models::Registrasi is not documented.
+/project/app/Models/Keunggulan.php:8: warning: Compound App::Models::Keunggulan is not documented.
+/project/app/Models/Promo.php:8: warning: Compound App::Models::Promo is not documented.
+/project/app/Providers/AuthServiceProvider.php:9: warning: Compound App::Providers::AuthServiceProvider is not documented.
+/project/app/Models/User.php:10: warning: Compound App::Models::User is not documented.
+/project/app/Console/Commands/OnShowFaq.php:13: warning: documented symbol 'App\Console\Commands\OnShowFaq::string' was not declared or defined.
+/project/app/Console/Commands/OnShowFaq.php:20: warning: documented symbol 'App\Console\Commands\OnShowFaq::string' was not declared or defined.
+/project/app/Console/Kernel.php:12: warning: documented symbol 'App\Console\Kernel::array' was not declared or defined.
+/project/app/Exceptions/Handler.php:12: warning: documented symbol 'App\Exceptions\Handler::array' was not declared or defined.
+/project/app/Exceptions/Handler.php:21: warning: documented symbol 'App\Exceptions\Handler::array' was not declared or defined.
+/project/app/Http/Controllers/Auth/LoginController.php:25: warning: documented symbol 'App\Http\Controllers\Auth\LoginController::string' was not declared or defined.
+/project/app/Http/Controllers/Auth/RegisterController.php:28: warning: documented symbol 'App\Http\Controllers\Auth\RegisterController::string' was not declared or defined.
+/project/app/Http/Controllers/Auth/ResetPasswordController.php:25: warning: documented symbol 'App\Http\Controllers\Auth\ResetPasswordController::string' was not declared or defined.
+/project/app/Http/Controllers/Auth/VerificationController.php:25: warning: documented symbol 'App\Http\Controllers\Auth\VerificationController::string' was not declared or defined.
+/project/app/Http/Kernel.php:13: warning: documented symbol 'App\Http\Kernel::array' was not declared or defined.
+/project/app/Http/Kernel.php:27: warning: documented symbol 'App\Http\Kernel::array' was not declared or defined.
+/project/app/Http/Kernel.php:51: warning: documented symbol 'App\Http\Kernel::array' was not declared or defined.
+/project/app/Http/Kernel.php:73: warning: documented symbol 'App\Http\Kernel::array' was not declared or defined.
+/project/app/Http/Middleware/CheckForMaintenanceMode.php:11: warning: documented symbol 'App\Http\Middleware\CheckForMaintenanceMode::array' was not declared or defined.
+/project/app/Http/Middleware/EncryptCookies.php:11: warning: documented symbol 'App\Http\Middleware\EncryptCookies::array' was not declared or defined.
+/project/app/Http/Middleware/TrimStrings.php:11: warning: documented symbol 'App\Http\Middleware\TrimStrings::array' was not declared or defined.
+/project/app/Http/Middleware/TrustProxies.php:12: warning: documented symbol 'App\Http\Middleware\TrustProxies::array' was not declared or defined.
+/project/app/Http/Middleware/TrustProxies.php:19: warning: documented symbol 'App\Http\Middleware\TrustProxies::int' was not declared or defined.
+/project/app/Http/Middleware/VerifyCsrfToken.php:11: warning: documented symbol 'App\Http\Middleware\VerifyCsrfToken::bool' was not declared or defined.
+/project/app/Http/Middleware/VerifyCsrfToken.php:18: warning: documented symbol 'App\Http\Middleware\VerifyCsrfToken::array' was not declared or defined.
+/project/app/Models/User.php:15: warning: documented symbol 'App\Models\User::array' was not declared or defined.
+/project/app/Models/User.php:24: warning: documented symbol 'App\Models\User::array' was not declared or defined.
+/project/app/Models/User.php:33: warning: documented symbol 'App\Models\User::array' was not declared or defined.
+/project/app/Providers/AuthServiceProvider.php:12: warning: documented symbol 'App\Providers\AuthServiceProvider::array' was not declared or defined.
+/project/app/Providers/EventServiceProvider.php:14: warning: documented symbol 'App\Providers\EventServiceProvider::array' was not declared or defined.
+/project/app/Providers/RouteServiceProvider.php:14: warning: documented symbol 'App\Providers\RouteServiceProvider::string' was not declared or defined.
+/project/app/Console/Kernel.php:15: warning: Member $commands (variable) of class App::Console::Kernel is not documented.
+/project/app/Console/Commands/OnShowFaq.php:16: warning: Member $signature (variable) of class App::Console::Commands::OnShowFaq is not documented.
+/project/app/Console/Commands/OnShowFaq.php:23: warning: Member $description (variable) of class App::Console::Commands::OnShowFaq is not documented.
+/project/app/Exceptions/Handler.php:15: warning: Member $dontReport (variable) of class App::Exceptions::Handler is not documented.
+/project/app/Exceptions/Handler.php:24: warning: Member $dontFlash (variable) of class App::Exceptions::Handler is not documented.
+/project/app/Exceptions/Handler.php:44: warning: Found unknown command '\Illuminate'
+/project/app/Exceptions/Handler.php:44: warning: Found unknown command '\Http'
+/project/app/Exceptions/Handler.php:44: warning: Found unknown command '\Response'
+/project/app/Http/Kernel.php:16: warning: Member $middleware (variable) of class App::Http::Kernel is not documented.
+/project/app/Http/Kernel.php:30: warning: Member $middlewareGroups (variable) of class App::Http::Kernel is not documented.
+/project/app/Http/Kernel.php:54: warning: Member $routeMiddleware (variable) of class App::Http::Kernel is not documented.
+/project/app/Http/Kernel.php:76: warning: Member $middlewarePriority (variable) of class App::Http::Kernel is not documented.
+/project/app/Http/Controllers/BlogController.php:44: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/BlogController.php:44: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/BlogController.php:44: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/BlogController.php:341: warning: argument '$blog' of command @param is not found in the argument list of App\Http\Controllers\BlogController::destroy($id)
+/project/app/Http/Controllers/BlogController.php:344: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/BlogController.php:344: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/BlogController.php:344: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/BlogController.php:347: warning: The following parameter of App\Http\Controllers\BlogController\destroy($id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/BlogController.php:164: warning: argument '$blog' of command @param is not found in the argument list of App\Http\Controllers\BlogController::edit($id)
+/project/app/Http/Controllers/BlogController.php:167: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/BlogController.php:167: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/BlogController.php:167: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/BlogController.php:170: warning: The following parameter of App\Http\Controllers\BlogController\edit($id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/BlogController.php:23: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/BlogController.php:23: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/BlogController.php:23: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/BlogController.php:156: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/BlogController.php:156: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/BlogController.php:156: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/BlogController.php:61: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/BlogController.php:61: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/BlogController.php:61: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/BlogController.php:180: warning: argument '$blog' of command @param is not found in the argument list of App\Http\Controllers\BlogController::update(Request $request, $id)
+/project/app/Http/Controllers/BlogController.php:184: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/BlogController.php:184: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/BlogController.php:184: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/BlogController.php:187: warning: The following parameter of App\Http\Controllers\BlogController\update(Request $request, $id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/HomeController.php:21: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/HomeController.php:21: warning: Found unknown command '\Contracts'
+/project/app/Http/Controllers/HomeController.php:21: warning: Found unknown command '\Support'
+/project/app/Http/Controllers/HomeController.php:21: warning: Found unknown command '\Renderable'
+/project/app/Http/Controllers/KategoriController.php:43: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/KategoriController.php:43: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/KategoriController.php:43: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/KategoriController.php:124: warning: argument '$kategori' of command @param is not found in the argument list of App\Http\Controllers\KategoriController::destroy($id)
+/project/app/Http/Controllers/KategoriController.php:127: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/KategoriController.php:127: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/KategoriController.php:127: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/KategoriController.php:130: warning: The following parameter of App\Http\Controllers\KategoriController\destroy($id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/KategoriController.php:90: warning: argument '$kategori' of command @param is not found in the argument list of App\Http\Controllers\KategoriController::edit($id)
+/project/app/Http/Controllers/KategoriController.php:93: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/KategoriController.php:93: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/KategoriController.php:93: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/KategoriController.php:96: warning: The following parameter of App\Http\Controllers\KategoriController\edit($id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/KategoriController.php:21: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/KategoriController.php:21: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/KategoriController.php:21: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/KategoriController.php:79: warning: argument '$request' of command @param is not found in the argument list of App\Http\Controllers\KategoriController::show(Kategori $kategori)
+/project/app/Http/Controllers/KategoriController.php:82: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/KategoriController.php:82: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/KategoriController.php:82: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/KategoriController.php:86: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/KategoriController.php:86: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/KategoriController.php:86: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/KategoriController.php:103: warning: argument '$kategori' of command @param is not found in the argument list of App\Http\Controllers\KategoriController::update(Request $request, $id)
+/project/app/Http/Controllers/KategoriController.php:107: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/KategoriController.php:107: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/KategoriController.php:107: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/KategoriController.php:110: warning: The following parameter of App\Http\Controllers\KategoriController\update(Request $request, $id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/NewsController.php:44: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/NewsController.php:44: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/NewsController.php:44: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/NewsController.php:305: warning: argument '$promo' of command @param is not found in the argument list of App\Http\Controllers\NewsController::destroy($id)
+/project/app/Http/Controllers/NewsController.php:308: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/NewsController.php:308: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/NewsController.php:308: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/NewsController.php:312: warning: The following parameter of App\Http\Controllers\NewsController\destroy($id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/NewsController.php:137: warning: argument '$news' of command @param is not found in the argument list of App\Http\Controllers\NewsController::edit($id)
+/project/app/Http/Controllers/NewsController.php:140: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/NewsController.php:140: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/NewsController.php:140: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/NewsController.php:143: warning: The following parameter of App\Http\Controllers\NewsController\edit($id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/NewsController.php:22: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/NewsController.php:22: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/NewsController.php:22: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/NewsController.php:128: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/NewsController.php:128: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/NewsController.php:128: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/NewsController.php:58: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/NewsController.php:58: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/NewsController.php:58: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/NewsController.php:160: warning: argument '$news' of command @param is not found in the argument list of App\Http\Controllers\NewsController::update(Request $request, $id)
+/project/app/Http/Controllers/NewsController.php:164: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/NewsController.php:164: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/NewsController.php:164: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/NewsController.php:167: warning: The following parameter of App\Http\Controllers\NewsController\update(Request $request, $id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/PromoController.php:44: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/PromoController.php:44: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/PromoController.php:44: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/PromoController.php:303: warning: argument '$promo' of command @param is not found in the argument list of App\Http\Controllers\PromoController::destroy($id)
+/project/app/Http/Controllers/PromoController.php:306: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/PromoController.php:306: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/PromoController.php:306: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/PromoController.php:310: warning: The following parameter of App\Http\Controllers\PromoController\destroy($id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/PromoController.php:136: warning: argument '$promo' of command @param is not found in the argument list of App\Http\Controllers\PromoController::edit($id)
+/project/app/Http/Controllers/PromoController.php:139: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/PromoController.php:139: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/PromoController.php:139: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/PromoController.php:142: warning: The following parameter of App\Http\Controllers\PromoController\edit($id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/PromoController.php:22: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/PromoController.php:22: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/PromoController.php:22: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/PromoController.php:127: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/PromoController.php:127: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/PromoController.php:127: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/PromoController.php:58: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/PromoController.php:58: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/PromoController.php:58: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/PromoController.php:160: warning: argument '$promo' of command @param is not found in the argument list of App\Http\Controllers\PromoController::update(Request $request, $id)
+/project/app/Http/Controllers/PromoController.php:164: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/PromoController.php:164: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/PromoController.php:164: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/PromoController.php:167: warning: The following parameter of App\Http\Controllers\PromoController\update(Request $request, $id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/SliderController.php:127: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/SliderController.php:127: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/SliderController.php:127: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/SliderController.php:249: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/SliderController.php:249: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/SliderController.php:249: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/SliderController.php:226: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/SliderController.php:226: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/SliderController.php:226: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/SliderController.php:23: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/SliderController.php:23: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/SliderController.php:23: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/SliderController.php:215: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/SliderController.php:215: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/SliderController.php:215: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/SliderController.php:138: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/SliderController.php:138: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/SliderController.php:138: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/SliderController.php:141: warning: The following parameter of App\Http\Controllers\SliderController\store(Request $request, $id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/SliderController.php:238: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/SliderController.php:238: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/SliderController.php:238: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/Api/YoutubeController.php:11: warning: Member $key (variable) of class App::Http::Controllers::Api::YoutubeController is not documented.
+/project/app/Http/Controllers/Auth/LoginController.php:40: warning: Member logout(Request $request) (function) of class App::Http::Controllers::Auth::LoginController is not documented.
+/project/app/Http/Controllers/Auth/LoginController.php:28: warning: Member $redirectTo (variable) of class App::Http::Controllers::Auth::LoginController is not documented.
+/project/app/Http/Controllers/Auth/RegisterController.php:31: warning: Member $redirectTo (variable) of class App::Http::Controllers::Auth::RegisterController is not documented.
+/project/app/Http/Controllers/Auth/RegisterController.php:61: warning: Found unknown command '\App'
+/project/app/Http/Controllers/Auth/RegisterController.php:61: warning: Found unknown command '\User'
+/project/app/Http/Controllers/Auth/RegisterController.php:46: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/Auth/RegisterController.php:46: warning: Found unknown command '\Contracts'
+/project/app/Http/Controllers/Auth/RegisterController.php:46: warning: Found unknown command '\Validation'
+/project/app/Http/Controllers/Auth/RegisterController.php:46: warning: Found unknown command '\Validator'
+/project/app/Http/Controllers/Auth/ResetPasswordController.php:28: warning: Member $redirectTo (variable) of class App::Http::Controllers::Auth::ResetPasswordController is not documented.
+/project/app/Http/Controllers/Auth/VerificationController.php:28: warning: Member $redirectTo (variable) of class App::Http::Controllers::Auth::VerificationController is not documented.
+/project/app/Http/Middleware/CheckForMaintenanceMode.php:14: warning: Member $except (variable) of class App::Http::Middleware::CheckForMaintenanceMode is not documented.
+/project/app/Http/Middleware/EncryptCookies.php:14: warning: Member $except (variable) of class App::Http::Middleware::EncryptCookies is not documented.
+/project/app/Http/Middleware/Roles.php:16: warning: The following parameter of App\Http\Middleware\Roles\handle($request, Closure $next, $roles) is not documented:
+  parameter '$roles'
+/project/app/Http/Middleware/TrimStrings.php:14: warning: Member $except (variable) of class App::Http::Middleware::TrimStrings is not documented.
+/project/app/Http/Middleware/TrustProxies.php:15: warning: Member $proxies (variable) of class App::Http::Middleware::TrustProxies is not documented.
+/project/app/Http/Middleware/TrustProxies.php:22: warning: Member $headers (variable) of class App::Http::Middleware::TrustProxies is not documented.
+/project/app/Http/Middleware/VerifyCsrfToken.php:14: warning: Member $addHttpCookie (variable) of class App::Http::Middleware::VerifyCsrfToken is not documented.
+/project/app/Http/Middleware/VerifyCsrfToken.php:21: warning: Member $except (variable) of class App::Http::Middleware::VerifyCsrfToken is not documented.
+/project/app/Models/Blog.php:12: warning: Member $table (variable) of class App::Models::Blog is not documented.
+/project/app/Models/Blog.php:13: warning: Member $primaryKey (variable) of class App::Models::Blog is not documented.
+/project/app/Models/Blog.php:14: warning: Member $fillable (variable) of class App::Models::Blog is not documented.
+/project/app/Models/BlogKategori.php:10: warning: Member $primaryKey (variable) of class App::Models::BlogKategori is not documented.
+/project/app/Models/BlogKategori.php:11: warning: Member $fillable (variable) of class App::Models::BlogKategori is not documented.
+/project/app/Models/BlogKategori.php:12: warning: Member $table (variable) of class App::Models::BlogKategori is not documented.
+/project/app/Models/Faq.php:10: warning: Member $table (variable) of class App::Models::Faq is not documented.
+/project/app/Models/Faq.php:11: warning: Member $primaryKey (variable) of class App::Models::Faq is not documented.
+/project/app/Models/Faq.php:12: warning: Member $fillable (variable) of class App::Models::Faq is not documented.
+/project/app/Models/Kategori.php:10: warning: Member $table (variable) of class App::Models::Kategori is not documented.
+/project/app/Models/Kategori.php:11: warning: Member $primaryKey (variable) of class App::Models::Kategori is not documented.
+/project/app/Models/Kategori.php:12: warning: Member $fillable (variable) of class App::Models::Kategori is not documented.
+/project/app/Models/Keunggulan.php:10: warning: Member $table (variable) of class App::Models::Keunggulan is not documented.
+/project/app/Models/Keunggulan.php:11: warning: Member $primaryKey (variable) of class App::Models::Keunggulan is not documented.
+/project/app/Models/Keunggulan.php:12: warning: Member $fillable (variable) of class App::Models::Keunggulan is not documented.
+/project/app/Models/Kontak.php:10: warning: Member $table (variable) of class App::Models::Kontak is not documented.
+/project/app/Models/Kontak.php:11: warning: Member $primaryKey (variable) of class App::Models::Kontak is not documented.
+/project/app/Models/Kontak.php:12: warning: Member $fillable (variable) of class App::Models::Kontak is not documented.
+/project/app/Models/News.php:10: warning: Member $table (variable) of class App::Models::News is not documented.
+/project/app/Models/News.php:11: warning: Member $primaryKey (variable) of class App::Models::News is not documented.
+/project/app/Models/News.php:12: warning: Member $fillable (variable) of class App::Models::News is not documented.
+/project/app/Models/Promo.php:10: warning: Member $table (variable) of class App::Models::Promo is not documented.
+/project/app/Models/Promo.php:11: warning: Member $primaryKey (variable) of class App::Models::Promo is not documented.
+/project/app/Models/Promo.php:12: warning: Member $fillable (variable) of class App::Models::Promo is not documented.
+/project/app/Models/Registrasi.php:10: warning: Member $table (variable) of class App::Models::Registrasi is not documented.
+/project/app/Models/Registrasi.php:11: warning: Member $primaryKey (variable) of class App::Models::Registrasi is not documented.
+/project/app/Models/Registrasi.php:12: warning: Member $fillable (variable) of class App::Models::Registrasi is not documented.
+/project/app/Models/Slider.php:10: warning: Member $table (variable) of class App::Models::Slider is not documented.
+/project/app/Models/Slider.php:11: warning: Member $primaryKey (variable) of class App::Models::Slider is not documented.
+/project/app/Models/Slider.php:12: warning: Member $fillable (variable) of class App::Models::Slider is not documented.
+/project/app/Models/UploadImage.php:10: warning: Member uploadFoto($foto, $filename) (function) of class App::Models::UploadImage is not documented.
+/project/app/Models/User.php:18: warning: Member $fillable (variable) of class App::Models::User is not documented.
+/project/app/Models/User.php:27: warning: Member $hidden (variable) of class App::Models::User is not documented.
+/project/app/Models/User.php:36: warning: Member $casts (variable) of class App::Models::User is not documented.
+/project/app/Providers/AuthServiceProvider.php:15: warning: Member $policies (variable) of class App::Providers::AuthServiceProvider is not documented.
+/project/app/Providers/EventServiceProvider.php:17: warning: Member $listen (variable) of class App::Providers::EventServiceProvider is not documented.
+/project/app/Providers/RouteServiceProvider.php:17: warning: Member $namespace (variable) of class App::Providers::RouteServiceProvider is not documented.
+/project/app/Http/Controllers/BlogController.php:23: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/BlogController.php:23: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/BlogController.php:23: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/BlogController.php:44: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/BlogController.php:44: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/BlogController.php:44: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/BlogController.php:61: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/BlogController.php:61: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/BlogController.php:61: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/BlogController.php:156: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/BlogController.php:156: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/BlogController.php:156: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/BlogController.php:164: warning: argument '$blog' of command @param is not found in the argument list of App\Http\Controllers\BlogController::edit($id)
+/project/app/Http/Controllers/BlogController.php:167: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/BlogController.php:167: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/BlogController.php:167: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/BlogController.php:170: warning: The following parameter of App\Http\Controllers\BlogController\edit($id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/BlogController.php:180: warning: argument '$blog' of command @param is not found in the argument list of App\Http\Controllers\BlogController::update(Request $request, $id)
+/project/app/Http/Controllers/BlogController.php:184: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/BlogController.php:184: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/BlogController.php:184: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/BlogController.php:187: warning: The following parameter of App\Http\Controllers\BlogController\update(Request $request, $id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/BlogController.php:341: warning: argument '$blog' of command @param is not found in the argument list of App\Http\Controllers\BlogController::destroy($id)
+/project/app/Http/Controllers/BlogController.php:344: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/BlogController.php:344: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/BlogController.php:344: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/BlogController.php:347: warning: The following parameter of App\Http\Controllers\BlogController\destroy($id) is not documented:
+  parameter '$id'
+/project/app/Exceptions/Handler.php:44: warning: Found unknown command '\Illuminate'
+/project/app/Exceptions/Handler.php:44: warning: Found unknown command '\Http'
+/project/app/Exceptions/Handler.php:44: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/HomeController.php:21: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/HomeController.php:21: warning: Found unknown command '\Contracts'
+/project/app/Http/Controllers/HomeController.php:21: warning: Found unknown command '\Support'
+/project/app/Http/Controllers/HomeController.php:21: warning: Found unknown command '\Renderable'
+/project/app/Http/Controllers/KategoriController.php:21: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/KategoriController.php:21: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/KategoriController.php:21: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/KategoriController.php:43: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/KategoriController.php:43: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/KategoriController.php:43: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/KategoriController.php:79: warning: argument '$request' of command @param is not found in the argument list of App\Http\Controllers\KategoriController::show(Kategori $kategori)
+/project/app/Http/Controllers/KategoriController.php:82: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/KategoriController.php:82: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/KategoriController.php:82: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/KategoriController.php:86: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/KategoriController.php:86: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/KategoriController.php:86: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/KategoriController.php:90: warning: argument '$kategori' of command @param is not found in the argument list of App\Http\Controllers\KategoriController::edit($id)
+/project/app/Http/Controllers/KategoriController.php:93: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/KategoriController.php:93: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/KategoriController.php:93: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/KategoriController.php:96: warning: The following parameter of App\Http\Controllers\KategoriController\edit($id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/KategoriController.php:103: warning: argument '$kategori' of command @param is not found in the argument list of App\Http\Controllers\KategoriController::update(Request $request, $id)
+/project/app/Http/Controllers/KategoriController.php:107: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/KategoriController.php:107: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/KategoriController.php:107: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/KategoriController.php:110: warning: The following parameter of App\Http\Controllers\KategoriController\update(Request $request, $id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/KategoriController.php:124: warning: argument '$kategori' of command @param is not found in the argument list of App\Http\Controllers\KategoriController::destroy($id)
+/project/app/Http/Controllers/KategoriController.php:127: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/KategoriController.php:127: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/KategoriController.php:127: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/KategoriController.php:130: warning: The following parameter of App\Http\Controllers\KategoriController\destroy($id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/NewsController.php:22: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/NewsController.php:22: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/NewsController.php:22: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/NewsController.php:44: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/NewsController.php:44: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/NewsController.php:44: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/NewsController.php:58: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/NewsController.php:58: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/NewsController.php:58: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/NewsController.php:128: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/NewsController.php:128: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/NewsController.php:128: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/NewsController.php:137: warning: argument '$news' of command @param is not found in the argument list of App\Http\Controllers\NewsController::edit($id)
+/project/app/Http/Controllers/NewsController.php:140: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/NewsController.php:140: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/NewsController.php:140: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/NewsController.php:143: warning: The following parameter of App\Http\Controllers\NewsController\edit($id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/NewsController.php:160: warning: argument '$news' of command @param is not found in the argument list of App\Http\Controllers\NewsController::update(Request $request, $id)
+/project/app/Http/Controllers/NewsController.php:164: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/NewsController.php:164: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/NewsController.php:164: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/NewsController.php:167: warning: The following parameter of App\Http\Controllers\NewsController\update(Request $request, $id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/NewsController.php:305: warning: argument '$promo' of command @param is not found in the argument list of App\Http\Controllers\NewsController::destroy($id)
+/project/app/Http/Controllers/NewsController.php:308: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/NewsController.php:308: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/NewsController.php:308: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/NewsController.php:312: warning: The following parameter of App\Http\Controllers\NewsController\destroy($id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/PromoController.php:22: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/PromoController.php:22: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/PromoController.php:22: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/PromoController.php:44: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/PromoController.php:44: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/PromoController.php:44: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/PromoController.php:58: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/PromoController.php:58: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/PromoController.php:58: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/PromoController.php:127: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/PromoController.php:127: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/PromoController.php:127: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/PromoController.php:136: warning: argument '$promo' of command @param is not found in the argument list of App\Http\Controllers\PromoController::edit($id)
+/project/app/Http/Controllers/PromoController.php:139: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/PromoController.php:139: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/PromoController.php:139: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/PromoController.php:142: warning: The following parameter of App\Http\Controllers\PromoController\edit($id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/PromoController.php:160: warning: argument '$promo' of command @param is not found in the argument list of App\Http\Controllers\PromoController::update(Request $request, $id)
+/project/app/Http/Controllers/PromoController.php:164: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/PromoController.php:164: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/PromoController.php:164: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/PromoController.php:167: warning: The following parameter of App\Http\Controllers\PromoController\update(Request $request, $id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/PromoController.php:303: warning: argument '$promo' of command @param is not found in the argument list of App\Http\Controllers\PromoController::destroy($id)
+/project/app/Http/Controllers/PromoController.php:306: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/PromoController.php:306: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/PromoController.php:306: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/PromoController.php:310: warning: The following parameter of App\Http\Controllers\PromoController\destroy($id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/Auth/RegisterController.php:46: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/Auth/RegisterController.php:46: warning: Found unknown command '\Contracts'
+/project/app/Http/Controllers/Auth/RegisterController.php:46: warning: Found unknown command '\Validation'
+/project/app/Http/Controllers/Auth/RegisterController.php:46: warning: Found unknown command '\Validator'
+/project/app/Http/Controllers/Auth/RegisterController.php:61: warning: Found unknown command '\App'
+/project/app/Http/Controllers/Auth/RegisterController.php:61: warning: Found unknown command '\User'
+/project/app/Http/Middleware/Roles.php:16: warning: The following parameter of App\Http\Middleware\Roles\handle($request, Closure $next, $roles) is not documented:
+  parameter '$roles'
+/project/app/Http/Controllers/SliderController.php:23: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/SliderController.php:23: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/SliderController.php:23: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/SliderController.php:127: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/SliderController.php:127: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/SliderController.php:127: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/SliderController.php:138: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/SliderController.php:138: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/SliderController.php:138: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/SliderController.php:141: warning: The following parameter of App\Http\Controllers\SliderController\store(Request $request, $id) is not documented:
+  parameter '$id'
+/project/app/Http/Controllers/SliderController.php:215: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/SliderController.php:215: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/SliderController.php:215: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/SliderController.php:226: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/SliderController.php:226: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/SliderController.php:226: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/SliderController.php:238: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/SliderController.php:238: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/SliderController.php:238: warning: Found unknown command '\Response'
+/project/app/Http/Controllers/SliderController.php:249: warning: Found unknown command '\Illuminate'
+/project/app/Http/Controllers/SliderController.php:249: warning: Found unknown command '\Http'
+/project/app/Http/Controllers/SliderController.php:249: warning: Found unknown command '\Response'

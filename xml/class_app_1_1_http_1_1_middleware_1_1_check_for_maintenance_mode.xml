@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_app_1_1_http_1_1_middleware_1_1_check_for_maintenance_mode" kind="class" language="PHP" prot="public">
+    <compoundname>App::Http::Middleware::CheckForMaintenanceMode</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Middleware</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_app_1_1_http_1_1_middleware_1_1_check_for_maintenance_mode_1afc86a06c3b90a4a8da34acaad5b22df2" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>App\Http\Middleware\CheckForMaintenanceMode::$except</definition>
+        <argsstring></argsstring>
+        <name>$except</name>
+        <initializer>= [
+        
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/project/app/Http/Middleware/CheckForMaintenanceMode.php" line="14" column="15" bodyfile="/project/app/Http/Middleware/CheckForMaintenanceMode.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>App\Http\Middleware\CheckForMaintenanceMode</label>
+        <link refid="class_app_1_1_http_1_1_middleware_1_1_check_for_maintenance_mode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Middleware</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>App\Http\Middleware\CheckForMaintenanceMode</label>
+        <link refid="class_app_1_1_http_1_1_middleware_1_1_check_for_maintenance_mode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Middleware</label>
+      </node>
+    </collaborationgraph>
+    <location file="/project/app/Http/Middleware/CheckForMaintenanceMode.php" line="8" column="1" bodyfile="/project/app/Http/Middleware/CheckForMaintenanceMode.php" bodystart="7" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_http_1_1_middleware_1_1_check_for_maintenance_mode_1afc86a06c3b90a4a8da34acaad5b22df2" prot="protected" virt="non-virtual"><scope>App::Http::Middleware::CheckForMaintenanceMode</scope><name>$except</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

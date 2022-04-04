@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_88a4777cc813fc77c471bd7c38dc0c56" kind="dir">
+    <compoundname>/project/app/Http/Controllers/Auth</compoundname>
+    <innerfile refid="_forgot_password_controller_8php">ForgotPasswordController.php</innerfile>
+    <innerfile refid="_login_controller_8php">LoginController.php</innerfile>
+    <innerfile refid="_register_controller_8php">RegisterController.php</innerfile>
+    <innerfile refid="_reset_password_controller_8php">ResetPasswordController.php</innerfile>
+    <innerfile refid="_verification_controller_8php">VerificationController.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/project/app/Http/Controllers/Auth/"/>
+  </compounddef>
+</doxygen>

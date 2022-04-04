@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespace_app_1_1_http_1_1_controllers_1_1_api" kind="namespace" language="PHP">
+    <compoundname>App::Http::Controllers::Api</compoundname>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_api_1_1_blog_controller" prot="public">App::Http::Controllers::Api::BlogController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_api_1_1_faq_controller" prot="public">App::Http::Controllers::Api::FaqController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_api_1_1_kategori_controller" prot="public">App::Http::Controllers::Api::KategoriController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_api_1_1_keunggulan_controller" prot="public">App::Http::Controllers::Api::KeunggulanController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_api_1_1_kontak_controller" prot="public">App::Http::Controllers::Api::KontakController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_api_1_1_meta_controller" prot="public">App::Http::Controllers::Api::MetaController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_api_1_1_news_controller" prot="public">App::Http::Controllers::Api::NewsController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_api_1_1_promo_controller" prot="public">App::Http::Controllers::Api::PromoController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_api_1_1_registrasi_controller" prot="public">App::Http::Controllers::Api::RegistrasiController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_api_1_1_send_email_controller" prot="public">App::Http::Controllers::Api::SendEmailController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_api_1_1_slider_controller" prot="public">App::Http::Controllers::Api::SliderController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_api_1_1_youtube_controller" prot="public">App::Http::Controllers::Api::YoutubeController</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/project/app/Http/Controllers/Api/BlogController.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_39e6fb902e81f005505faea649f0079b" kind="dir">
+    <compoundname>/project/app/Http/Controllers/Api</compoundname>
+    <innerfile refid="_api_2_blog_controller_8php">BlogController.php</innerfile>
+    <innerfile refid="_faq_controller_8php">FaqController.php</innerfile>
+    <innerfile refid="_api_2_kategori_controller_8php">KategoriController.php</innerfile>
+    <innerfile refid="_keunggulan_controller_8php">KeunggulanController.php</innerfile>
+    <innerfile refid="_api_2_kontak_controller_8php">KontakController.php</innerfile>
+    <innerfile refid="_api_2_meta_controller_8php">MetaController.php</innerfile>
+    <innerfile refid="_api_2_news_controller_8php">NewsController.php</innerfile>
+    <innerfile refid="_api_2_promo_controller_8php">PromoController.php</innerfile>
+    <innerfile refid="_registrasi_controller_8php">RegistrasiController.php</innerfile>
+    <innerfile refid="_send_email_controller_8php">SendEmailController.php</innerfile>
+    <innerfile refid="_api_2_slider_controller_8php">SliderController.php</innerfile>
+    <innerfile refid="_youtube_controller_8php">YoutubeController.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/project/app/Http/Controllers/Api/"/>
+  </compounddef>
+</doxygen>

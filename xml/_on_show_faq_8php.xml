@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_on_show_faq_8php" kind="file" language="PHP">
+    <compoundname>OnShowFaq.php</compoundname>
+    <innerclass refid="class_app_1_1_console_1_1_commands_1_1_on_show_faq" prot="public">App::Console::Commands::OnShowFaq</innerclass>
+    <innernamespace refid="namespace_app_1_1_console_1_1_commands">App::Console::Commands</innernamespace>
+    <innernamespace refid="namespace_illuminate_1_1_console_1_1_command">Illuminate::Console::Command</innernamespace>
+    <innernamespace refid="namespace_app_1_1_models_1_1_faq">App::Models::Faq</innernamespace>
+    <innernamespace refid="namespace_d_b">DB</innernamespace>
+    <innernamespace refid="namespace_carbon_1_1_carbon">Carbon::Carbon</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">App\Console\Commands;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>Illuminate\Console\Command;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_faq" kindref="compound">App\Models\Faq</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/>DB;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">use<sp/>Carbon\Carbon;</highlight></codeline>
+<codeline lineno="9" refid="class_app_1_1_console_1_1_commands_1_1_on_show_faq" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_app_1_1_console_1_1_commands_1_1_on_show_faq" kindref="compound">OnShowFaq</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>Command</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>$signature<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;command:showfaq&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>$description<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Command<sp/>description&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_console_1_1_commands_1_1_on_show_faq_1aa8981448ac982e45dd2f232334baabc6" kindref="member">__construct</ref>()</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parent::__construct();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_console_1_1_commands_1_1_on_show_faq_1adeef0bd5c1b988bfb44eec639de6c8fa" kindref="member">handle</ref>()</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$faq=Faq::where(</highlight><highlight class="stringliteral">&apos;show&apos;</highlight><highlight class="normal">,0)-&gt;where(</highlight><highlight class="stringliteral">&apos;tglPublish&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;!=&apos;</highlight><highlight class="normal"><sp/>,</highlight><highlight class="stringliteral">&apos;1000-01-01&apos;</highlight><highlight class="normal">)-&gt;where(</highlight><highlight class="stringliteral">&apos;tglPublish&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;&lt;=&apos;</highlight><highlight class="normal"><sp/>,Carbon::now())-&gt;get();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($faq<sp/>as<sp/>$item){</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$faqUpdate<sp/>=<sp/>Faq::find($item-&gt;kdFaq);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$faqUpdate-&gt;show<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$faqUpdate-&gt;save();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>echo<sp/>&quot;sc\n&quot;;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/project/app/Console/Commands/OnShowFaq.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_d516c96f5fe0013fc0afdef8d199e3e1" kind="dir">
+    <compoundname>/project/app/Jobs</compoundname>
+    <innerfile refid="_registrasi_pelanggan_8php">RegistrasiPelanggan.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/project/app/Jobs/"/>
+  </compounddef>
+</doxygen>

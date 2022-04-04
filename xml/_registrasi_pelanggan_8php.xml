@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_registrasi_pelanggan_8php" kind="file" language="PHP">
+    <compoundname>RegistrasiPelanggan.php</compoundname>
+    <innerclass refid="class_app_1_1_jobs_1_1_registrasi_pelanggan" prot="public">App::Jobs::RegistrasiPelanggan</innerclass>
+    <innernamespace refid="namespace_app_1_1_jobs">App::Jobs</innernamespace>
+    <innernamespace refid="namespace_app_1_1_mikrotik">App::Mikrotik</innernamespace>
+    <innernamespace refid="namespace_illuminate_1_1_bus_1_1_queueable">Illuminate::Bus::Queueable</innernamespace>
+    <innernamespace refid="namespace_illuminate_1_1_queue_1_1_serializes_models">Illuminate::Queue::SerializesModels</innernamespace>
+    <innernamespace refid="namespace_illuminate_1_1_queue_1_1_interacts_with_queue">Illuminate::Queue::InteractsWithQueue</innernamespace>
+    <innernamespace refid="namespace_illuminate_1_1_contracts_1_1_queue_1_1_should_queue">Illuminate::Contracts::Queue::ShouldQueue</innernamespace>
+    <innernamespace refid="namespace_illuminate_1_1_foundation_1_1_bus_1_1_dispatchable">Illuminate::Foundation::Bus::Dispatchable</innernamespace>
+    <innernamespace refid="namespace_dispatchable">Dispatchable</innernamespace>
+    <innernamespace refid="namespace_interacts_with_queue">InteractsWithQueue</innernamespace>
+    <innernamespace refid="namespace_queueable">Queueable</innernamespace>
+    <innernamespace refid="namespace_serializes_models">SerializesModels</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">App\Jobs;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>App\Mikrotik;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/>Illuminate\Bus\Queueable;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/>Illuminate\Queue\SerializesModels;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">use<sp/>Illuminate\Queue\InteractsWithQueue;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">use<sp/>Illuminate\Contracts\Queue\ShouldQueue;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">use<sp/>Illuminate\Foundation\Bus\Dispatchable;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">use<sp/>DB;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_app_1_1_jobs_1_1_registrasi_pelanggan" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_app_1_1_jobs_1_1_registrasi_pelanggan" kindref="compound">RegistrasiPelanggan</ref><sp/></highlight><highlight class="keyword">implements</highlight><highlight class="normal"><sp/>ShouldQueue</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/>Dispatchable,<sp/>InteractsWithQueue,<sp/>Queueable,<sp/>SerializesModels;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>$data;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_jobs_1_1_registrasi_pelanggan_1aef30bc97645d2cde9e9f7486c1147e82" kindref="member">__construct</ref>($data)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;data<sp/>=<sp/>$data;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_jobs_1_1_registrasi_pelanggan_1a001872c426ad3aaa5c890a58bed57d08" kindref="member">handle</ref>()</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DB::table(</highlight><highlight class="stringliteral">&apos;test&apos;</highlight><highlight class="normal">)-&gt;insert([</highlight><highlight class="stringliteral">&apos;ble&apos;</highlight><highlight class="normal">=&gt;json_encode($this-&gt;data)]);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/project/app/Jobs/RegistrasiPelanggan.php"/>
+  </compounddef>
+</doxygen>
